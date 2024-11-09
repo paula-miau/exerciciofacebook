@@ -1,0 +1,107 @@
+:root {
+    --largura: 30px;
+    --altura: 30px;
+    --borda-redonda: 30px;
+    --cor-preta: rgb(24, 24, 24);
+    --cor-branca: white;
+    --cor-cinza: grey;
+    --cor-vermelha: red;
+    
+    }
+    .caixa1{
+    background-color: var(--cor-preta);
+    color: var(--cor-branca);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    }
+    .caixa2{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    }
+    .caixa3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    }
+    h1{
+    margin: 0 auto;
+    }
+    .pesquisa{
+    width: var(--largura);
+    background-color: var(--cor-cinza);
+    fill: var(--cor-branca);
+    border: 1px solid var(--cor-cinza);
+    border-radius: var(--borda-redonda) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--largura);
+    height: var(--altura);
+    }
+    .mensagem button{
+    width: var(--largura);
+    background-color: var(--cor-cinza);
+    border: 1px solid var(--cor-cinza);
+    border-radius: var(--borda-redonda);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--largura);
+    height: var(--altura);
+    }
+    .sino button{
+    width: var(--largura);
+    background-color: var(--cor-cinza);
+    border: 1px solid var(--cor-cinza);
+    fill: var(--cor-branca);
+    border-radius: var(--borda-redonda);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--largura);
+    height: var(--altura);
+    
+    }
+    .sino{
+    position: relative;
+    }
+    span{
+    background-color: var(--cor-vermelha);
+    border-radius: var(--borda-redonda);
+    padding: 0px 6px;
+    position: absolute;
+    top: -8px;
+    right: -18px;
+    z-index: 1;
+    }
+    .seta button{
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+    z-index: 1;
+    background-color: var(--cor-cinza);
+    border: 2px solid;
+    fill: var(--cor-branca);
+    border-radius: var(--borda-redonda);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin: 0;
+    }
+    .seta button svg{
+    width: 5px;
+    }
+    .seta{
+    position: relative;
+    width: var(--largura);
+    }
+    img {
+    clip-path: circle();
+    width: var(--largura);
+    }
