@@ -8,7 +8,7 @@
     --cor-vermelha: red;
     
     }
-    .caixa1{
+    .borda1{
     background-color: var(--cor-preta);
     color: var(--cor-branca);
     display: flex;
@@ -16,12 +16,12 @@
     padding: 10px;
     align-items: center;
     }
-    .caixa2{
+    .borda2{
     display: flex;
     gap: 15px;
     align-items: center;
     }
-    .caixa3{
+    .borda3{
     display: flex;
     align-items: center;
     gap: 20px;
